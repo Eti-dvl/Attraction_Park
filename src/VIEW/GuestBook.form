@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="EmailLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                  <Component id="EmailTextField" min="-2" pref="137" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="FirstNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="QuantityLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="FirstNameTextField" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="AdToMyBasketButton" min="-2" pref="316" max="-2" attributes="0"/>
+                              <Component id="LastNameLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="Image" min="-2" pref="350" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="21" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="ReservationDateLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jXDatePicker1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="195" max="-2" attributes="0"/>
+                              <Component id="LastNameTextField" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                  <Component id="RideTitile" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="RideTitile" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Image" min="-2" pref="202" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="204" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ReservationDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jXDatePicker1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="QuantityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="FirstNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="FirstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LastNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="EmailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="EmailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AdToMyBasketButton" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="RideTitile">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="m_ride.getTitle()" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextPane" name="Description">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="m_ride.getDescription()" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="ReservationDateLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Resevertion date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QuantityLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Quantity"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="jSpinner1">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXDatePicker" name="jXDatePicker1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jXDatePicker1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="int m_quantity = (int) jSpinner1.getValue();&#xa;        Date m_date = jXDatePicker1.getDate();&#xa;        String m_mail = EmailTextField.getText();&#xa;&#xa;        String day = &quot;&quot;;&#xa;        String month = &quot;&quot;;&#xa;        String date = &quot;&quot;;&#xa;&#xa;        if (m_date != null) {           &#xa;            if (m_date.getDate() &lt; 10) {&#xa;                day = &quot;0&quot; + m_date.getDate();&#xa;            } else {&#xa;                day = &quot;&quot; + m_date.getDate();&#xa;            }&#xa;&#xa;            if (m_date.getMonth() &lt; 10) {&#xa;                month = &quot;0&quot; + (m_date.getMonth() + 1);&#xa;            } else {&#xa;                month = &quot;&quot; + (m_date.getMonth() + 1);&#xa;            }&#xa;            date = day + &quot;/&quot; + month + &quot;/&quot; + (1900 + m_date.getYear());&#xa;&#xa;            System.out.println(&quot;DAte :&quot; + date);&#xa;        }&#xa;        Connection com;&#xa;&#xa;        try {&#xa;&#xa;            com = DriverManager.getConnection(Main.url, Main.user, Main.password);&#xa;&#xa;            Statement stmt = com.createStatement();&#xa;&#xa;            String sqlStatement = &quot;SELECT quantit&#xe9; FROM reservation WHERE attractionName =&apos;&quot; + m_ride.getTitle() + &quot;&apos; AND date =&apos;&quot; + date + &quot;&apos;&quot;;&#xa;&#xa;            String sqlStatement2 = &quot;SELECT quantit&#xe9;,date FROM reservation WHERE attractionName =&apos;&quot; + m_ride.getTitle() + &quot;&apos;&quot;;&#xa;&#xa;            int res = 0;&#xa;&#xa;            ArrayList&lt;ResaQuantite&gt; ResaQuantite = new ArrayList();&#xa;&#xa;            ArrayList&lt;String&gt; date2 = new ArrayList();&#xa;&#xa;            ArrayList&lt;Integer&gt; test = new ArrayList();&#xa;&#xa;            ArrayList&lt;Date&gt; newDate = new ArrayList();&#xa;&#xa;            ArrayList&lt;Integer&gt; quantiteTotaleJournaliere = new ArrayList();&#xa;&#xa;            ResultSet rs = stmt.executeQuery(sqlStatement);&#xa;&#xa;            while (rs.next()) {&#xa;                res += rs.getInt(1);&#xa;&#xa;            }&#xa;            ResultSet rs2 = stmt.executeQuery(sqlStatement2);&#xa;            String date3;&#xa;            int quantite3;&#xa;&#xa;            while (rs2.next()) {&#xa;&#xa;                quantite3 = rs2.getInt(1);&#xa;                date3 = rs2.getString(2);&#xa;&#xa;                ResaQuantite variable = new ResaQuantite(date3, quantite3);&#xa; &#xa;                boolean check = false;               &#xa;                for (int k = 0; k &lt; ResaQuantite.size(); k++) {&#xa;&#xa;                    if (date3.equals(ResaQuantite.get(k).getDate())) {&#xa;                        ResaQuantite.get(k).setQuantite(quantite3);&#xa;                        check = true;&#xa;                        System.out.println(&quot;TROU&quot;);&#xa;                    } else {&#xa;                    }&#xa;                }&#xa;&#xa;                if (check == false) {&#xa;                    ResaQuantite.add(variable);&#xa;                }&#xa;&#xa;            }&#xa;&#xa;            for (int j = 0; j &lt; ResaQuantite.size(); j++) {&#xa;&#xa;                ResaQuantite.get(j).toString2();&#xa;                if (ResaQuantite.get(j).getQuantite() &gt;= m_ride.getMax()) {&#xa;                    newDate.add(Register.toDate(ResaQuantite.get(j).getDate()));&#xa;&#xa;                }&#xa;&#xa;            }&#xa;&#xa;            Date[] variable = new Date[newDate.size()];&#xa;            for (int i = 0; i &lt; newDate.size(); i++) {&#xa;                Date date33 = newDate.get(i);&#xa;                variable[i] = date33;&#xa;            }&#xa;            jXDatePicker1.getMonthView().setUnselectableDates(variable);&#xa;&#xa;/////////////////////////////////////////&#xa;            for (int i = 0; i &lt; Main.AllResa.size(); i++) {&#xa;&#xa;                if (Main.AllResa.get(i).getNom() == m_ride.getTitle() &amp;&amp; Main.AllResa.get(i).DateToString() == date) {&#xa;                    res += Main.AllResa.get(i).getNombre();&#xa;                }&#xa;            }&#xa;&#xa;            System.out.println(&quot;Num res :&quot; + res);&#xa;&#xa;            if ((res + m_quantity) &lt;= m_ride.getMax()&amp;&amp;m_date!=null) {&#xa;&#xa;                double price = m_quantity;&#xa;                price *= m_ride.getPrice();&#xa;                &#xa;                Reservation nv = new Reservation(m_ride.getTitle(), price, m_mail, m_date, m_quantity);&#xa;                JOptionPane.showMessageDialog(null, &quot;ADDED TO BASKET&quot;);&#xa;                System.out.println(nv.toString());&#xa;                Main.AllResa.add(nv);&#xa;            }else if(m_date==null)&#xa;            {            &#xa;&#xa;            }&#xa;            else {&#xa;                &#xa;                JOptionPane.showMessageDialog(null, &quot;NOT ENOUGH PLACES FOR THIS DATE\n&quot; + (m_ride.getMax() - res) + &quot; PLACES REMAINING&quot;);&#xa;            }&#xa;&#xa;            com.close();&#xa;        } catch (SQLException e) {&#xa;            System.out.println(&quot;exception : &quot; + e.getMessage());&#xa;        }"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="FirstNameLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="First Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="EmailLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Email"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LastNameLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Last Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="FirstNameTextField">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FirstNameTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="LastNameTextField">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="EmailTextField">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EmailTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="AdToMyBasketButton">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="69" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Add to my Basket"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AdToMyBasketButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Image">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new javax.swing.ImageIcon(getClass().getResource(&quot;/Image/&quot;+m_ride.getImage()+&quot;.jpg&quot;))" type="code"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
